@@ -1,0 +1,180 @@
+.polariod-service {
+    margin-top: 70px;
+    background-color: #222222;
+}
+
+h1 {
+    text-align: center;
+    font-family: Open Sans Regular;
+    padding: 10px;
+    text-shadow: 1px 1px #333;
+    background-color: #000;
+    color: #fff;
+}
+
+.pics {
+    margin: auto;
+    position: relative;
+    width: 850px;
+}
+
+.pics a {
+    width: auto;
+    background: #fff;
+    padding: 10px 10px 30px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 28px;
+    font-family: Open Sans Regular;
+    font-weight: bold;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    -webkit-transition: all .30s;
+    -moz-transition: all .30s;
+    -o-transition: all .30s;
+    transition: all .30s;
+    position: absolute;
+}
+
+.pics img {
+    display: block;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.pics a:hover {
+    z-index: 10;
+}
+
+.pics a:after {
+    content: attr(name);
+    word-break: normal;
+}
+
+.pics li:nth-child(1) a {
+    -webkit-transform: rotate(30deg) scale(0.7, 0.7);
+    -moz-transform: rotate(30deg) scale(0.7, 0.7);
+    transform: rotate(30deg) scale(0.7, 0.7);
+    top: 172px;
+    left: 55%;
+}
+
+/*.pics li:nth-child a .custom-tooltip {
+    left: -84%;
+}*/
+.pics li:nth-child(1) a .custom-tooltip:before {
+    display: none;
+}
+
+.pics li:nth-child(2) a {
+    -webkit-transform: rotate(-30deg) scale(0.7, 0.7);
+    -moz-transform: rotate(-30deg) scale(0.7, 0.7);
+    transform: rotate(-30deg) scale(0.7, 0.7);
+    top: 40%;
+    left: 60%;
+}
+
+.pics li:nth-child(2) a .custom-tooltip {
+    left: -104%;
+}
+
+.pics li:nth-child(2) a .custom-tooltip:before {
+    display: none;
+}
+
+.pics li:nth-child(3) a {
+    -webkit-transform: rotate(20deg) scale(0.7, 0.7);
+    -moz-transform: rotate(20deg) scale(0.7, 0.7);
+    transform: rotate(20deg) scale(0.7, 0.7);
+    left: -28%;
+}
+
+.pics li:nth-child(3) a .custom-tooltip {
+    left: 103%;
+}
+
+.pics li:nth-child(3) a .custom-tooltip:before {
+    transform: rotate(0deg);
+    left: -8%;
+}
+
+.pics li:nth-child(3) a .custom-tooltip:after {
+    display: none;
+}
+
+.pics li:nth-child(4) a {
+    -webkit-transform: rotate(-10deg) scale(0.7, 0.7);
+    -moz-transform: rotate(-10deg) scale(0.7, 0.7);
+    transform: rotate(-10deg) scale(0.7, 0.7);
+    left: 33%;
+    top: 140px;
+}
+
+.pics li:nth-child(4) a .custom-tooltip:before {
+    display: none;
+}
+
+.pics li:nth-child(5n) a {
+    -webkit-transform: rotate(-20deg) scale(0.8, 0.8);
+    -moz-transform: rotate(-20deg) scale(0.8, 0.8);
+    transform: rotate(-20deg) scale(0.8, 0.8);
+    left: -10%;
+    z-index: 3;
+}
+
+.pics li:nth-child(5) a .custom-tooltip {
+    top: 24.8%;
+    left: 103%;
+}
+
+.pics li:nth-child(5) a .custom-tooltip:after {
+    display: none;
+}
+
+.pics li:nth-child(n) a:hover {
+    -webkit-transform: rotate(0deg) scale(2, 2);
+    -moz-transform: rotate(0deg) scale(1, 1);
+    transform: rotate(0deg) scale(1, 1);
+}
+
+.pics .custom-tooltip {
+    background-color: grey;
+    position: absolute;
+    top: 14.8%;
+    z-index: 999;
+    width: 480px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    left: -80%;
+}
+
+.pics .custom-tooltip:before {
+    content: ' ';
+    position: absolute;
+    border: 20px solid transparent;
+    border-right-color: grey;
+    transform: rotate(0deg);
+    top: 39%;
+    left: -8%;
+}
+
+.pics .custom-tooltip:after {
+    content: ' ';
+    position: absolute;
+    border: 20px solid transparent;
+    border-right-color: grey;
+    transform: rotate(180deg);
+    top: 36%;
+    left: 99%;
+}
+
+.pics li:nth-child(n) a:hover .custom-tooltip {
+    display: block !important;
+}
+
+.pics .ind-type.gov-cat {
+    list-style-type: none;
+}

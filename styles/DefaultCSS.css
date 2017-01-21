@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url("../fonts/Regular/OpenSans-Regular.eot?v=1.1.0");
+    src: url("../fonts/Regular/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../fonts/Regular/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), url("../fonts/Regular/OpenSans-Regular.woff?v=1.1.0") format("woff"), url("../fonts/Regular/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), url("../fonts/Regular/OpenSans-Regular.svg?v=1.1.0#Regular") format("svg");
+}
+
+header .intro-text {
+    padding-top: 300px;
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 50px
+}
+
+header .intro-text .intro-lead-in {
+    font-family: Open Sans Regular;
+    font-style: italic;
+    font-size: 38px;
+    line-height: 30px;
+    margin-bottom: 25px
+}
+
+header .intro-text .intro-heading {
+    font-family: Open Sans Regular;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+.navbar-inverse {
+    padding-top: 0;
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar-brand {
+    font-family: Open Sans Regular;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.navbar-collapse {
+    font-family: 'OCR A';
+    padding-top: 2px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+body {
+    padding-top: 0px;
+}
+
+/*body, html {
+    height: 100%;
+}*/
+/* additional sections */
+#home {
+    background-image: url("../img/Home.jpg");
+    min-height: 660px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about {
+    background-image: url("../img/Aboutus.jpg");
+    font-family: Open Sans Regular;
+    min-height: 660px;
+    font-weight: 400;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#industries {
+    background-image: url("../img/Industries_big.jpg");
+    font-family: Open Sans Regular;
+    min-height: 660px;
+    font-weight: 400;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#services {
+    background-image: url("../img/Services_small.jpg");
+    font-family: Open Sans Regular;
+    min-height: 660px;
+    font-weight: 400;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-us {
+    background-image: url("../img/ContactUs.jpg");
+    font-family: Open Sans Regular;
+    min-height: 660px;
+    font-weight: 400;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .navbar-default {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        border: 0
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+
+    .navbar-default .navbar-nav a {
+        font-family: Open Sans Regular;
+    }
+
+    .navbar-default .navbar-nav > .active > a {
+        border-radius: 3px
+    }
+
+    .navbar-default.navbar-shrink {
+        background-color: #484343;
+        padding: 10px 0;
+        z-index: 10;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em
+    }
+}
+
+.aboutus .section-heading {
+    font-family: Open Sans Regular;
+    font-size: 50px;
+    margin: 200px 0 50px 0;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 40px;
+    color: #ffffff;
+}
+
+.aboutus .section-subheading {
+    font-family: Open Sans Regular;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+blockquote {
+    font-family: Open Sans Regular;
+    display: block;
+    margin: 20px 40px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.learn-more {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.link-style {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.learn-more:hover, .learn-more:active {
+    color: grey;
+    text-decoration: none;
+}
+
+.industries-page .industries {
+    background-image: url("../img/Industries_small.jpg");
+    font-family: Open Sans Regular;
+    min-height: 660px;
+    font-weight: 400;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-page .service {
+    background-image: url("../img/Services.jpg");
+    font-family: Open Sans Regular;
+    min-height: 660px;
+    font-weight: 400;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.credit-link{
+    font-size: 15px;
+}.credit-link:hover{
+   text-decoration: none;
+}
+.credit-page .credit {
+    background-image: url("../img/credit.jpg");
+    font-family: Open Sans Regular;
+    min-height: 660px;
+    font-weight: 400;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.credit-page .credit .credit-desc{
+    font-family: "Open Sans Regular";
+    color: white;
+    padding: 100px 50px 0 50px;
+    width: 75%;
+    margin: auto;
+    font-size: 25px;
+}
+.credit-name{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 40px 30px;
+    font-size: 20px;
+    color: white;
+}
+.credit-name li{
+ list-style-type: none;
+}
+
+.industries-page .industries .ind-type {
+    padding: 200px 50px 0 50px;
+    font-size: 20px;
+    font-family: Open Sans Regular;
+    color: white;
+}
+
+.industries-page .industries .ind-type.gov-cat img {
+    height: 350px;
+}
+
+.industries-page .industries .ind-type img {
+    position: relative;
+    top: -60px;
+}
+
+.industries-page .industries .ind-type.man-cat img {
+    top: 60px;
+}
+
+.industries-page .industries .ind-desc {
+    font-family: Open Sans Regular;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.aboutus .contact-section-heading {
+    font-family: Open Sans Regular;
+    font-size: 50px;
+    margin: 375px 0 50px 0;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 40px;
+    color: #ffffff;
+}
+
+.timeline-line-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 7px;
+    height: 100%;
+    margin-left: -3px;
+}
+
+.timeline-line {
+    width: 1px;
+    background-color: blue;
+    opacity: .3 !important;
+}
+
+.timeline-line-before {
+    height: 7.6875em;
+    margin-left: .1875em;
+}
+
+.timeline-line-wrapper img {
+
+}
+
+.timeline-line-after {
+    position: absolute;
+    top: 7.75em;
+    bottom: 0;
+    margin-left: .1875em;
+}
