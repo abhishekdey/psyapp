@@ -218,11 +218,14 @@ blockquote {
     background-size: cover;
 }
 
-.credit-link{
+.credit-link {
     font-size: 15px;
-}.credit-link:hover{
-   text-decoration: none;
 }
+
+.credit-link:hover {
+    text-decoration: none;
+}
+
 .credit-page .credit {
     background-image: url("../img/credit.jpg");
     font-family: Open Sans Regular;
@@ -232,9 +235,10 @@ blockquote {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-style: italic;
 }
 
-.credit-page .credit .credit-desc{
+.credit-page .credit .credit-desc {
     font-family: "Open Sans Regular";
     color: white;
     padding: 100px 50px 0 50px;
@@ -242,7 +246,8 @@ blockquote {
     margin: auto;
     font-size: 25px;
 }
-.credit-name{
+
+.credit-name {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -250,8 +255,10 @@ blockquote {
     font-size: 20px;
     color: white;
 }
-.credit-name li{
- list-style-type: none;
+
+.credit-name li {
+    list-style-type: none;
+    font-style: italic;
 }
 
 .industries-page .industries .ind-type {
